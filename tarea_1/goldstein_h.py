@@ -27,7 +27,7 @@ if __name__ == "__main__":
         for row in mexico_ts:
            if row[0]==int(fecha):
             row[1] = row[1] + 1
-            row[2] = row[2] + + float(gs)
+            row[2] = row[2] + float(gs)
       else:
         mexico_ts.append([int(fecha),1,float(gs)])
   
